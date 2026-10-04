@@ -1,0 +1,22 @@
+# secrets / local state
+.env
+.env.*
+!.env.example
+data/
+logs/
+*.log
+
+# build artifacts
+/target
+/dpq
+/dpq-linux-*
+*.o
+*.a
+*.so
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
